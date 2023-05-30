@@ -1,0 +1,129 @@
+#display-tracks-container{
+    background-color: rgb(38,38,38);
+}
+#display-tracks > * {
+    color: white;
+}
+
+#display-tracks-header-container {
+    margin-bottom: 1.5rem;
+}
+#display-tracks-header-container > * {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#top-row {
+    display: flex;
+    justify-content: space-around;
+}
+#bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#edit-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.display-tracks-header {
+    color: lime;
+}
+
+#display-tracks-table-header {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-bottom: 1rem;
+}
+#display-tracks-table-header > *{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+#display-tracks-table-header-privateplaylist {
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+    margin-bottom: 1rem;
+}
+#display-tracks-table-header-privateplaylist > *{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+#display-tracks-table-header-searchBox {
+    display: grid;
+    grid-template-columns: 10% 10% 40% 40%;
+    margin-bottom: 1rem;
+}
+#display-tracks-table-header-searchBox > *{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.track-basic-info{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.track-basic-info:hover {
+    cursor: pointer;
+    background-color: lime;
+}
+.track-basic-info span.material-symbols-outlined:hover {
+    background-color: lime !important;
+    color: black;
+}
+
+.track-basic-info-searchBox{
+    display: grid;
+    grid-template-columns: 10% 10% 40% 40%;
+}
+.track-basic-info-searchBox:hover {
+    cursor: pointer;
+    background-color: lime;
+}
+.track-basic-info-searchBox span.material-symbols-outlined:hover {
+    background-color: lime !important;
+    color: black;
+}
+
+.track-basic-info-privateplaylist {
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+}
+.track-basic-info-privateplaylist:hover{
+    cursor: pointer;
+    background-color: lime;
+}
+.track-basic-info-privateplaylist span.material-symbols-outlined:hover {
+    background-color: lime !important;
+    color: black;
+}
+
+.track-additional-info {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 5%;
+}
+.track-additional-info span {
+    color: lime;
+}
+
+.track-additional-info div {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.material-symbols-outlined {
+    margin-right: 0.2rem;
+}
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    background-color: rgb(38,38,38);
+}
+
+#update-playlist-info-save-btn {
+    border: none;
+    background-color: black;
+    color: white;
+}

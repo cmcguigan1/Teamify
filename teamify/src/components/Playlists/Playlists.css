@@ -1,0 +1,199 @@
+/* Public Playlists */
+.public-playlist {
+    width: 100%;
+}
+.public-playlist-details{
+    background-color: lime;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.public-playlist-details:hover{
+    cursor: pointer;
+    background-color: rgb(0, 133, 0);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#public-playlists-results{
+    background-color: rgb(38,38,38);
+    padding: 1rem;
+}
+#public-playlists-header {
+    color: lime;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.playlist-tracks{
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.playlist-header {
+    color: lime;
+}
+.playlist-tracks > * {
+    background-color: black;
+    color: white;
+}
+.playlist-tracks > table {
+    width: 100%;
+}
+
+#public-playlist-reviews {
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    color: white;
+}
+#public-playlist-reviews span#reviews-header {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+/* Private Playlists */
+#users-playlists-results {
+    width: 100%;
+    background-color: rgb(38,38,38);
+}
+#users-playlists-results > *{
+    color: white;
+}
+.private-playlist{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.3rem;
+}
+.private-playlist:hover{
+    background-color: lime;
+    cursor: pointer;
+}
+.private-playlist:hover > .playlist-name {
+    color: black;
+}
+.playlist-name {
+    color: lime;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#add-playlist-btn{
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem 2rem;
+}
+#add-playlist-btn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 133, 0);
+}
+
+
+#display-public-playlists-btn {
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    margin: 0.2rem;
+}
+#display-public-playlists-btn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 133, 0);
+}
+
+#display-search-tracks-btn {
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 4.7rem;
+    margin: 0.2rem;
+}
+#display-search-tracks-btn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 133, 0);
+}
+
+input[type=text] {
+    margin-left: 0.1rem;
+}
+
+
+.public-playlist-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.75rem;
+}
+
+#adding-rating-container button {
+    background-color: lime;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#adding-rating-container button:hover {
+    background-color: rgb(0, 133, 0);
+    cursor: pointer;
+}
+
+#adding-rating-container form > * {
+    margin: 0 0.2rem;
+}
+
+.review {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-not-admin {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.review-admin {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.admin-review {
+    display: flex;
+    align-items: center;
+}
+
+.review span {
+    color: lime;
+}
+
+
+
+#add-tracks-to-playlist-form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+#save-tracks-to-list {
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    margin-top: 0.5rem;
+}
+#save-tracks-to-list:hover {
+    cursor: pointer;
+    background-color: rgb(0, 133, 0);
+}

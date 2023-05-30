@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+#teamify-banner{
+  background-color: rgb(38,38,38);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#teamify-banner p {
+  color: lime;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0.8rem;
+}
+#spacer-div{
+  margin-left: 0.75rem;
+}
+
+#app-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 70%;
+  column-gap: 5%;
+  flex-grow: 1;
+}
+
+#left-bar{
+  background-color: rgb(38,38,38);
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-blurb {
+  color: white;
+  margin: 4rem 2rem;
+  font-size: 1rem;
+}

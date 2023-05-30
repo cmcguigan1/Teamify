@@ -1,0 +1,18 @@
+#login-btn{
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+#login-btn:hover {
+    background-color: rgb(0, 133, 0);
+    cursor: pointer;
+}
+#login-btn-container{
+    margin-right: 0.75rem;
+}
+
+#deactivated-page-div{
+    background-color: rgb(38,38,38);
+    color: white;
+}
