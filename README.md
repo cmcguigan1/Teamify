@@ -27,6 +27,9 @@ Report any hateful comments
 ![image](https://github.com/cmcguigan1/Teamify/assets/96666915/87e49bd8-c624-4c1c-a80c-ac0274db4cd8)
 
 ### Authenticated View - Logged In
+Log in with an existing account or with a 3rd party certificate. Sign up or submit a forgotten password
+![image](https://github.com/cmcguigan1/Teamify/assets/96666915/ca70d67d-586a-4567-8804-c700e47c6f7e)
+
 Create new playlists and choose to make it either private (only visible to you) or public (available to all users, logged in or not)
 ![image](https://github.com/cmcguigan1/Teamify/assets/96666915/0aea687a-819f-4a3a-a071-54866c14454f)
 
