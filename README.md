@@ -1,17 +1,17 @@
 # Teamify - Final Project for my 3316A Web Technologies course
 
 ## Team Members
-Claire McGuigan (Me) - UI/UX Design, Frontend, Backend API, Database, Deployment
+Claire McGuigan (Me) - UI/UX Design, Frontend, Backend API, Database, Deployment <br>
 Kaitlyn Moore (Partner) - Login-Page Frontend and Firebase integration for authentication
  
  ## Description
  For our final project for our Web Technologies course, we were tasked with designing, implementing, and testing a Full-Stack music streaming application, and deploying it to AWS
  
  ## Technologies
- Framework: React
- Backend: Express JS
- Authentication: Firebase
- Database: MySQL
+ Framework: React <br>
+ Backend: Express JS <br>
+ Authentication: Firebase <br>
+ Database: MySQL <br>
  Deployment Platform: AWS
  
  ## Views
